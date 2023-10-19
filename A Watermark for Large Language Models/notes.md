@@ -105,3 +105,7 @@ what kind of robust hashing rules are possible, and when are these rules provabl
 What is the best way to test for the watermark in a streaming context, or in a context where a short span of watermarked text lives inside a longer non-watermarked span? 
 
 Are there simple sensitivity bounds that are more accurate than those presented above for large δ and small γ? 
+
+# 个人
+这个方法使用几乎所有 token 参与到 1-bit 水印任务, 对于水印质量提升是明显的, 对文本质量也没啥影响
+ 
